@@ -179,8 +179,8 @@
 				A62A850B167F35AD005B4317 /* Sources */,
 				A62A850C167F35AD005B4317 /* Frameworks */,
 				A62A850D167F35AD005B4317 /* Resources */,
+				A64A3510167F3FB1005159CE /* ShellScript */,
 				A62A850E167F35AD005B4317 /* ShellScript */,
-				A64A3509167F3AD9005159CE /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -255,7 +255,7 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
-		A64A3509167F3AD9005159CE /* ShellScript */ = {
+		A64A3510167F3FB1005159CE /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,7 +266,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "$(SRCROOT)/buildAndTest.sh";
+			shellScript = ./RunTests.sh;
 		};
 /* End PBXShellScriptBuildPhase section */
 
