@@ -180,6 +180,7 @@
 				A62A850C167F35AD005B4317 /* Frameworks */,
 				A62A850D167F35AD005B4317 /* Resources */,
 				A62A850E167F35AD005B4317 /* ShellScript */,
+				A64A3509167F3AD9005159CE /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -253,6 +254,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		A64A3509167F3AD9005159CE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$(SRCROOT)/buildAndTest.sh";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -431,6 +445,7 @@
 				A62A8524167F35AD005B4317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A62A8525167F35AD005B4317 /* Build configuration list for PBXNativeTarget "jenkinsRepoTests" */ = {
 			isa = XCConfigurationList;
@@ -439,6 +454,7 @@
 				A62A8527167F35AD005B4317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
