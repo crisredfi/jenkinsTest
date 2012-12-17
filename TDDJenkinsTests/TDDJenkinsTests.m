@@ -29,4 +29,9 @@
     STFail(@"Unit tests are not implemented yet in TDDJenkinsTests");
 }
 
+
+- (void)testTwo
+{
+    STAssertTrue(TRUE, @"added new test to check the hook");
+}
 @end
