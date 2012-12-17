@@ -1,7 +1,7 @@
 
 default:
-	xcodebuild -target "GoPirates_UnitTests (Device)" -configuration Release
-	xcodebuild -target "GoPirates_UnitTests (Simulator)" -configuration Release
+	xcodebuild -target "jenkinsRepoTests (Device)" -configuration Release
+	xcodebuild -target "jenkinsRepoTests (Simulator)" -configuration Release
 	BUILD_DIR="build" BUILD_STYLE="Release" sh ../Scripts/combineLibs.sh
 	sh ../Scripts/iPhoneFramework.sh
 
