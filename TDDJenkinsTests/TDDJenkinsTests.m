@@ -32,7 +32,7 @@
 
 - (void)testTwo
 {
-    STAssertTrue(TRUE, @"added new test to check the hook");
+    STAssertTrue(TRUE, @"added new test to check the hook"); 
 }
 
 
