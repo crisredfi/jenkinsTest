@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in TDDJenkinsTests");
+    STFail(@"Unit tests are not implemented yet in TDDJenkinsTests"); 
 }
 
 
@@ -34,4 +34,6 @@
 {
     STAssertTrue(TRUE, @"added new test to check the hook"); 
 }
+
+
 @end
